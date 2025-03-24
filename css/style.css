@@ -4,9 +4,11 @@
     font-family: "Roboto", sans-serif;
 }
 
+
 body{
     
     box-sizing: border-box;
+    
     
 }
 h1{
@@ -100,4 +102,28 @@ h2{
     margin-bottom: 10px;
     
 }
-
+.mid-sec{
+    margin-bottom: 40px;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    background-color: #E5E7EB;
+}
+.quote div{
+    text-align: center;
+    font-style: italic;
+}
+blockquote{
+    padding: 15px;
+}
+.quote p{
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 900;
+    font-style: italic;
+}
+.info div{
+    padding: 0 15px;
+}
