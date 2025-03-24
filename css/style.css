@@ -75,3 +75,29 @@ img{
     width: 400px;
     height: 200px;
 }
+h2{
+    text-align: center;
+    margin: 25px 0;
+    font-size: 32px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.container p{
+    text-align: center;
+}
+.container div{
+   max-width: 250px;
+   text-align: center;
+}
+.container img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    
+}
+
